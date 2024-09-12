@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/index.css">
+    <title>Pousada</title>
+</head>
+<body>
+    <div class="menu-lateral">
+        <h2>Pousada Encantada</h2>
+        <ul>
+            <li><a href="#cafe-da-manha">Café da Manhã</a></li>
+            <li><a href="#reservas">Reservas</a></li>
+            <li><a href="#promocoes">Promoções</a></li>
+            <li><a href="#atracoes">Atrações</a></li>
+        </ul>
+    </div>
+
+    <div class="menu-principal">
+        <section id="cafe-da-manha">
+            <h2>Café da Manhã</h2>
+            <p>Desfrute do nosso delicioso café da manhã com uma variedade de opções frescas e locais.</p>
+        </section>
+
+        <section id="reservas">
+            <h2>Faça sua Reserva</h2>
+            <form class="reservas-form">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="data-check-in">Data de Check-in</label>
+                <input type="date" id="data-check-in" name="data-check-in" required>
+
+                <label for="data-check-out">Data de Check-out</label>
+                <input type="date" id="data-check-out" name="data-check-out" required>
+
+                <label for="acomodacao">Tipo de Acomodação</label>
+                <select id="acomodacao" name="acomodacao" required>
+                    <option value="standard">Standard</option>
+                    <option value="deluxe">Deluxe</option>
+                    <option value="suite">Suite</option>
+                </select>
+
+                <button type="submit">Reservar Agora</button>
+            </form>
+        </section>
+
+        <section id="promocoes">
+            <h2>Promoções</h2>
+            <p>Confira nossas ofertas especiais e pacotes promocionais.</p>
+        </section>
+
+        <section id="atracoes">
+            <h2>Atrações</h2>
+            <p>Explore as atrações locais e divirta-se durante sua estadia.</p>
+        </section>
+
+        <section class="imagem-acomodacoes">
+            <h2>Acomodações</h2>
+            <img src="accommodation1.jpg" alt="Acomodação 1">
+            <img src="accommodation2.jpg" alt="Acomodação 2">
+            <img src="accommodation3.jpg" alt="Acomodação 3">
+        </section>
+    </div>
+
+    <div class="imagem-lateral esquerda">
+        <img src="side-image-left.jpg" alt="Imagem Lateral Esquerda">
+    </div>
+
+    <div class="imagem-lateral direita">
+        <img src="side-image-right.jpg" alt="Imagem Lateral Direita">
+    </div>
+</body>
+</html>
